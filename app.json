@@ -1,16 +1,14 @@
 {
   "expo": {
-    "name": "forms",
-    "slug": "forms",
+    "name": "Siprecom",
+    "slug": "siprecom",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+      "resizeMode": "cover"
+    },    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -18,16 +16,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.javierjait.siprecom"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },            
+      "package": "com.javierjait.siprecom"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a96f09cd-f830-4724-b55d-702e6f538c55"
+      }
     }
   }
 }
